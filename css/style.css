@@ -1,0 +1,98 @@
+/* navbar */
+#top_nav {
+    background-color: #daac00;
+}
+
+#logo_text {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+    font-size: 20px;
+    padding-left: 35px !important;
+}
+
+#search_box{
+background-color: #fcc302;
+
+border: 0px;
+border-radius: 0;
+position: relative;
+left: 47px;
+box-shadow: 5px 10px 11px 0px #00000021;
+}
+#search_box::placeholder{
+    color: white;
+}
+
+#search_button{
+    position: relative;
+    z-index: 99;
+    border-radius: 0;
+    background-color:#00bec9;
+    color: white;
+    border: 0;
+
+}
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+}
+
+#banner_text h1{
+    color: white;
+    font-size: 55px;
+    margin-top: 70px;
+}
+
+#banner_text p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#banner_btn_1{
+    background-color: #00bec9;
+    color: white;
+}
+#banner_btn_2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 30px;
+}
+
+
+/* service */
+
+#service_text{
+     padding-top: 10%;
+     padding-bottom: 5%;
+}
+
+#service_btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px soild #fcc302;
+}
+
+/* counter */
+
+#counter_section{
+    background-image: url(../images/bc.jpg);
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.counter_icon{
+    font-size: 70px;
+
+}
