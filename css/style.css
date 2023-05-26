@@ -15,24 +15,25 @@
     padding-left: 35px !important;
 }
 
-#search_box{
-background-color: #fcc302;
+#search_box {
+    background-color: #fcc302;
 
-border: 0px;
-border-radius: 0;
-position: relative;
-left: 47px;
-box-shadow: 5px 10px 11px 0px #00000021;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
 }
-#search_box::placeholder{
+
+#search_box::placeholder {
     color: white;
 }
 
-#search_button{
+#search_button {
     position: relative;
     z-index: 99;
     border-radius: 0;
-    background-color:#00bec9;
+    background-color: #00bec9;
     color: white;
     border: 0;
 
@@ -40,27 +41,28 @@ box-shadow: 5px 10px 11px 0px #00000021;
 
 /* banner */
 
-#banner{
+#banner {
     background-color: #fcc302;
 }
 
-#banner_text h1{
+#banner_text h1 {
     color: white;
     font-size: 55px;
     margin-top: 70px;
 }
 
-#banner_text p{
+#banner_text p {
     color: white;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-#banner_btn_1{
+#banner_btn_1 {
     background-color: #00bec9;
     color: white;
 }
-#banner_btn_2{
+
+#banner_btn_2 {
     color: white;
     border: 2px solid white;
     margin-left: 30px;
@@ -69,12 +71,12 @@ box-shadow: 5px 10px 11px 0px #00000021;
 
 /* service */
 
-#service_text{
-     padding-top: 10%;
-     padding-bottom: 5%;
+#service_text {
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
-#service_btn{
+#service_btn {
     color: white;
     background-color: #fcc302;
     border: 2px soild #fcc302;
@@ -82,7 +84,7 @@ box-shadow: 5px 10px 11px 0px #00000021;
 
 /* counter */
 
-#counter_section{
+#counter_section {
     background-image: url(../images/bc.jpg);
     height: 500px;
     width: 100%;
@@ -92,7 +94,25 @@ box-shadow: 5px 10px 11px 0px #00000021;
     background-size: cover;
 }
 
-.counter_icon{
+.counter_icon {
     font-size: 70px;
 
+}
+
+/* blog */
+
+#blog_title {
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+#blog_p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article_detail{
+    padding: 15px;
+    border: 1px solid rgb(125, 125, 125);
+    border-top: 0;
 }
